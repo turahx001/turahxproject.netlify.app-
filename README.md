@@ -15,7 +15,8 @@ Users should be able to:
 View the optimal layout for the site depending on their device's screen size
 See hover states for all interactive elements on the page
 Screenshot
-![image](https://github.com/turahx001/turahxproject.netlify.app-/assets/145138486/3ba763d4-7dae-4797-86ed-841c78defcdf)
+![image](https://github.com/turahx001/turahxproject.netlify.app-/assets/145138486/1c842259-a0c4-4b5f-afed-b7fe03da15aa)
+
 
 
 Links
