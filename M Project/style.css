@@ -1,0 +1,344 @@
+/* Media Query for web View */
+body {
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color:#ff886f; */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+select {
+    background-color: transparent; /* Adjust the alpha value as needed */
+    border: 0px;
+    color:white;
+    cursor: pointer;
+}
+
+option{
+    background-color: white;
+    color:black;
+    border: 0px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button.login {
+    background-color: transparent;
+    color: white;
+}
+
+button.signup {
+    background-color: #ffffff;
+    color: #ff886f;
+    border-radius: 50px;
+}
+
+
+
+
+/* section one */
+
+.section-one{
+    
+    color: white;
+    padding: 15px;
+    border-bottom-left-radius: 80px;
+}
+
+h1, p{
+    justify-content: center;
+    text-align: center;
+}
+ .cta{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+ }
+
+.start-for-free{
+
+    background-color: #ffffff;
+    color: #ff886f;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.start-for-free:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease; /
+}
+
+
+.learn-more{
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #ffffff;   
+    
+}
+
+.learn-more:hover {
+    background-color: #fff;
+    transition: background-color 0.3s ease; 
+    color: #ff886f;
+
+    
+}
+
+/* section two */
+
+.section-two{
+    display: flex;
+
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden; /* Ensure that the clipped part is hidden */
+  }
+  
+  .clipped-image {
+    width: 600px;
+    height: 400px;
+    /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+    object-fit: cover; /* Maintain the aspect ratio of the clipped image */
+  }
+.ilu-edi-ig{
+    /* padding: 20px 20px 20px 20px;
+    margin: 0px -280px 0px 0px; */
+  
+    overflow: hidden; /* Ensure that the clipped part is hidden */
+  
+}
+.text-wrapper{
+    margin: 240px 100px 0px 100px;
+    text-align: start;
+}
+.text{
+    margin: 50px 20px 20px 50px;
+    text-align: justify;
+}
+
+/* section three */
+.section-three{
+    background-image: linear-gradient(hsl(237, 17%, 21%), hsl(236, 31%, 20%));
+    border: 1px solid black;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    height: 280px;
+    
+
+}
+
+.ilu-phones{
+margin-left: 80px;
+margin-top: -30px;
+}
+
+.section-four{
+    display: flex;
+}
+
+
+
+
+/* Reset some default styles and provide a basic structure */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the footer */
+  footer {
+    display: flex;
+    border-top-right-radius: 50px;
+    background-color: #24242c;
+    color: #fff;
+    padding: 20px;
+    justify-content: flex-end; /* Align items to the right */
+
+  }
+  
+  /* Style the logo */
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+  }
+  
+  /* Create a flex container for the footer content */
+  footer > div {
+    flex: 1;
+  }
+  
+
+  
+  /* Style the links in each section */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Provide additional styling for the links (optional) */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+
+  /* Reset some default browser styles */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model to all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Add some basic styling to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style the section container */
+.section-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Style the image container */
+.ilu-edi-ig {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Style the clipped image */
+.clipped-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style the text container */
+.text-wrapper {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Style the heading in text-one and text-two */
+.text-one h3,
+.text-two h3 {
+    color: #2d2d2d;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style the paragraphs in text-one and text-two */
+.text-one p,
+.text-two p {
+    text-align: justify;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Add some responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .section-four {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ilu-edi-ig,
+    .text-wrapper {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .auth-buttons {
+        margin-top: 10px;
+    }
+}
