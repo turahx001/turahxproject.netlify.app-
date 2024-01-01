@@ -6,8 +6,6 @@ Links
 My Process
 Built With
 What I Learned
-Continued Development
-Useful Resources
 Author
 Acknowledgments
 Overview
@@ -21,27 +19,21 @@ Screenshot
 
 
 Links
-Solution URL: Add solution URL here
-Live Site URL: Add live site URL here
+Live Site URL: https://turahxproject.netlify.app/
 My Process
-Built With
+Built With:
 Semantic HTML5 markup
 CSS custom properties
 Flexbox
 CSS Grid
 Mobile-first workflow
-What I Learned
+What I Learned:
 During this project, I learned how to effectively use semantic HTML5 markup and improve my skills in CSS, including custom properties, Flexbox, and CSS Grid. Additionally, I gained experience in implementing a mobile-first workflow for responsive design.
 
-Continued Development
-In future projects, I plan to focus on enhancing my skills in JavaScript to add interactivity and functionality to web pages. I also aim to explore more advanced CSS techniques and improve my understanding of design principles.
 
-Useful Resources
-Example resource 1 - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-Example resource 2 - This is an amazing article that helped me understand XYZ. I'd recommend it to anyone still learning this concept.
 Author
-Frontend Mentor - @yourusername
-Twitter - @yourusername
+Frontend Mentor - @turahx001
 Acknowledgments
-I would like to acknowledge the Frontend Mentor community for providing valuable challenges and fostering a learning environment. Additionally, special thanks to Misturah Tijani for coding this solution.
+I would like to acknowledge the Frontend Mentor community for providing valuable challenges and fostering a learning environment. 
+i would also like to acknowledge a friend of mine who helped with providing solutions to some places i was stuck, and my team lead; Sir Shezzy for making clarifications when needed.
 
